@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta name="author" content="Corentin Levalet">
+        <meta name="keywords" content="JeFilmeLeMetierQuiMePlait Concours IUT Informatique Cloud Computing Ingénieur">
+        <meta name="description" content="Site présentation du métier d'Ingénieur Cloud.">
+        <title>Ingénieur Cloud | Concours JFLMQMP</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid fixed-top" id="navbar">
+                <div class="row">
+                    <div style="cursor:pointer;" onclick="switchMenu();" class="col-xs-4" id="navbar-left">
+                        <span id="menuBtn">&#9776;</span>
+                    </div>
+                    <div class="col-xs-8" id="navbar-right"> 
+                        Ingénieur Cloud Computing
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid" id="global-container">
+            <div class="row justify-content-center">
+                <div class="col-2 d-none d-sm-block border row justify-content-center" id="left-menu">
+                    <div class="widget border border-primary">
+                        Widget 1
+                    </div>
+                    <div class="widget border border-primary">
+                        Widget 2
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-8 border" id="page-container">
+                    <h2>Page Title</h1>
+                    <section id="page-content">
+                        Page content
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="footer-container">
+            <a class="footer-link" style="font-size:1.3em;" href="AboutUS.html">Qui sommes nous ?</a>
+            <div class="footer-img">
+                <a href="https://www.univ-reims.fr"><img alt="Logo URCA" src="img/logo_urca.png"></a>
+                <a href="https://www.iut-rcc.fr"><img alt="Logo IUT" src="img/iut.png"></a>
+            </div>
+            2020-2021 © <a class="footer-link" href="https://www.iut-rcc.fr">IUT de Reims-Châlons-Charleville</a>
+        </div>
+        <!-- Scripts JavaScripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="scripts/menu.js"></script>
+        <!-- Menu NAV DEBUT -->
+        <div id="menu" class="menuOverlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu();">&times;</a>
+            <div class="menu-content">
+                <strong>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='index.html' target="_self" active>Accueil</a>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='Présentation.html' target="_self">Présentation</a>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='Etudes.html' target="_self">Les Etudes</a>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='Récapitulatif.html' target="_self">Récapitulatif</a>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='Video.html' target="_self">Vidéo</a>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='Contact.html' target="_self">Other link</a>
+                    <hr class="border-limiter">
+                    <a class="menu-link" href='anotherlink.html' target="_self">An other link</a>
+                    <hr class="border-limiter">
+                </strong>
+            </div>
+        </div>
+        <!-- Menu NAV FIN -->
+    </body>
+
+</html>

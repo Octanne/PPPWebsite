@@ -1,0 +1,78 @@
+
+body {
+    background-color: rgba(96, 161, 218, 0.747);
+}
+
+/* Navbar */
+#navbar {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(14, 118, 228);
+
+    border: 3px solid black;
+}
+#navbar-right {
+    text-align: center;
+    margin: auto;
+
+    padding: 0.2em;
+}
+#navbar-left {
+    border-right: 3px solid black;
+    padding: 0.2em 0.5em 0.1em 0.5em
+}
+
+@media (min-width : 576px) {
+    #navbar-left::after {
+        content: "Menu";
+    }
+
+    #global-container {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width : 575px) {
+    #navbar {
+        font-size: 1.5em;
+    }
+
+    #global-container {
+        margin-top: xx-large;
+    }
+}
+
+#global-container {
+    font-size: x-large;
+
+    min-width: 90%;
+    margin-bottom: 1.6%;
+}
+
+#page-container {
+    text-align: center;
+    min-height: 1000px;
+    padding: 0.1em;
+}
+
+#page-container h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(100, 149, 237);
+}
+
+#left-menu {
+    
+    height: fit-content;
+    padding: 0.1em;
+}
+
+.widget {
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding: 0.1em;
+    max-height: fit-content;
+
+    text-align: center;
+    display: block;
+}
