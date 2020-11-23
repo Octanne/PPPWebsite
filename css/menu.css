@@ -1,10 +1,4 @@
 /* NAV Menu */
-.menu-link {
-	font-family: cursive;
-	font-size: 2em; 
-	padding: 2px;
-}
-
 .border-limiter {
 	border-bottom: 2px solid gray;
 	font-size: 0.8em;
@@ -36,16 +30,23 @@
 
 .menuOverlay a {
     padding: 8px;
+    margin: auto;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-family: cursive;
+    font-size: 2em;
+    color: #f1f1f1;
     display: block;
-    transition: 0.3s;
+    max-width: max-content;
+    transition: 0.2s;
 }
 
 .menuOverlay a:hover, .menuOverlay a:focus {
-    color: #f1f1f1;
+    color: rgb(100, 149, 237);
     text-decoration: none;
+}
+
+.menuOverlay a[active], .menuOverlay a[active] {
+    color: rgb(0, 123, 255);
 }
 
 .menuOverlay .closebtn {
@@ -66,4 +67,5 @@
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
 }

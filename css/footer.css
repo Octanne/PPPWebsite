@@ -1,17 +1,21 @@
 /* Footer */
 #footer-container {
 	background-color:  rgb(14, 118, 228);
-	color: dark;
+	color: black;
 	text-align: center;
 }
 
 .footer-img {
-	width: fit-content;
+	max-width: max-content;
 	margin: auto;
 
-	border-top: 2px solid black;
 	padding: 0.25em;
+	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+}
+
+a img {
+	margin: 0.1em; 
 }
 
 .footer-link {
