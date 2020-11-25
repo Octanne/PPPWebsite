@@ -9,6 +9,10 @@
 	text-align: center;
 }
 
+#footer-container p {
+	margin:0;
+}
+
 .footer-img {
 	width: max-content;
 	margin: auto;
