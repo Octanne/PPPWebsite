@@ -28,34 +28,55 @@
             </div>
         </header>
         <div class="container-fluid" id="global-container">
-            <div class="row justify-content-around">
-                <div class="col-2 d-none d-xl-block border border-danger">
-                    <div id="widgets-container">
-                        <div class="widget border border-primary">
-                            Widget 1
+            <div class="container-fluid" id="header-container">
+                <div class="row justify-content-around">
+                    <div class="col-2 d-none d-xl-block">
+                        <div id="widgets-container">
+                            <div class="widget">
+                                <h3 class="widget-title">Navigation</h3>
+                                <div class="widget-corps" id="navWidget">
+                                    <ul>
+                                        <li class="linkNavWidget" onclick="location.href='index.html'" active>Accueil</li>
+                                        <li class="linkNavWidget" onclick="location.href='presentation.html'">Présentation</li>
+                                        <li class="linkNavWidget" onclick="location.href='etudes.html'">Les Etudes</li>
+                                        <li class="linkNavWidget" onclick="location.href='recapitulatif.html'">Les Sources</li>
+                                        <li class="linkNavWidget" onclick="location.href='video.html'">La Vidéo</li>
+                                        <li class="linkNavWidget" onclick="location.href='anotherlink.html'">An other link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <h3 class="widget-title">Nom de menu</h3>
+                                <div class="widget-corps">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Fusce gravida turpis sit amet lectus volutpat 
+                                    vulputate. consectetur adipiscing elit.
+                                </div>
+                            </div>
                         </div>
-                        <div class="widget border border-primary">
-                            Widget 2
+                    </div>
+                    <div class="col-xl-9 col-12">
+                        <div id="page-container">
+                            <h2>Page Title</h2>
+                            <section id="page-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida turpis sit amet lectus volutpat vulputate. In vel magna posuere, imperdiet augue et, posuere nibh. Sed odio nunc, luctus id convallis at, consectetur sed enim. Integer commodo lorem ac mauris pharetra congue. In vitae mauris non tellus facilisis rutrum cursus eu arcu. Mauris fermentum leo a diam suscipit, et consectetur augue luctus. Suspendisse nisl eros, tristique at tincidunt vel, egestas sit amet lectus. Ut tellus tortor, tincidunt nec volutpat ac, euismod vitae nisi. Sed suscipit sollicitudin ligula, eu sollicitudin leo ornare nec. Pellentesque sollicitudin, diam in tincidunt placerat, odio quam vestibulum augue, sit amet tempus dui ante a quam. Fusce in diam eget eros vehicula vulputate sodales id nulla. Nunc tristique arcu in nisl rhoncus tristique. Aliquam suscipit, lectus ac laoreet tempus, sapien velit semper dui, in tincidunt ipsum erat eu erat. Cras commodo augue dui, vitae vehicula sem accumsan ac. Nulla sollicitudin nulla sed ipsum maximus pulvinar.
+                                Ut vitae mauris ut erat suscipit ullamcorper vitae eu risus. Nullam quis neque quis felis egestas tempor. Duis eget diam fermentum, iaculis ex non, mollis eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce aliquet turpis dui, id volutpat leo ullamcorper ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi.
+                                Etiam finibus lorem urna, a elementum nulla feugiat ut. Mauris dolor justo, lobortis nec dui a, blandit accumsan turpis. Sed ac libero nec ante blandit sodales. Fusce bibendum ultrices ex quis tempor. Nullam vel lorem elit. Etiam molestie imperdiet purus eu congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                Mauris vestibulum felis leo, in bibendum ligula sodales quis. Duis lobortis felis in scelerisque dignissim. Pellentesque fermentum libero id sollicitudin vulputate. Vivamus vestibulum felis pretium, blandit neque eget, fermentum odio. Mauris a feugiat enim. Donec scelerisque pretium faucibus. Mauris id eros laoreet, consequat magna id, commodo justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas quis eros lorem. Suspendisse faucibus libero ac leo porttitor, eget consequat dolor dapibus. Vivamus metus dolor, aliquam semper lorem consequat, euismod ultricies tellus. Vestibulum lobortis facilisis lacus, at fringilla nunc pulvinar sit amet. Integer vel iaculis risus, quis luctus libero. Donec lacinia et purus eget mattis. Nam ipsum justo, faucibus in lacus eget, elementum efficitur nibh. Quisque pellentesque dignissim ligula nec rhoncus.
+                                Integer elementum justo ullamcorper arcu lobortis porta. Duis ut arcu eu lectus consectetur lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer ultricies suscipit arcu ut elementum. Nullam consequat massa a sem pulvinar dapibus. Phasellus dui nunc, sollicitudin at efficitur eu, condimentum ac neque. Nam venenatis, ante at rutrum blandit, eros massa consectetur nulla, sed hendrerit ex felis id enim. Aenean vel gravida nulla, et hendrerit est. Proin et iaculis enim. Sed pulvinar varius dui, tincidunt cursus sem laoreet a. Suspendisse facilisis sapien id viverra varius. Sed non lectus ut urna cursus pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nec lectus convallis, lacinia ex vitae, placerat sapien. Vivamus sed finibus ipsum. Duis suscipit nulla rhoncus urna faucibus tincidunt. 
+                            </section>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-12 border border-danger">
-                    <div id="page-container">
-                        <h2>Page Title</h2>
-                        <section id="page-content">
-                            Page content
-                        </section>
-                    </div>
+            </div>
+            <div id="footer-container">
+                <p style="font-size:1.2em; margin:0;">Projet IUT Départ. Informatique</p>
+                <div class="footer-img">
+                    <a href="https://www.univ-reims.fr"><img alt="Logo URCA" src="img/logo_urca.png"></a>
+                    <a href="https://www.iut-rcc.fr"><img alt="Logo IUT" src="img/iut.png"></a>
                 </div>
+                2020-2021 © <a class="footer-link" href="https://www.iut-rcc.fr">IUT de Reims-Châlons-Charleville</a>
             </div>
-        </div>
-        <div class="container-fluid" id="footer-container">
-            <p style="font-size:1.3em; margin:0;">Les logos des établissements :</p>
-            <div class="footer-img">
-                <a href="https://www.univ-reims.fr"><img alt="Logo URCA" src="img/logo_urca.png"></a>
-                <a href="https://www.iut-rcc.fr"><img alt="Logo IUT" src="img/iut.png"></a>
-            </div>
-            2020-2021 © <a class="footer-link" href="https://www.iut-rcc.fr">IUT de Reims-Châlons-Charleville</a>
         </div>
         <!-- Scripts JavaScripts -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -68,17 +89,15 @@
             <div class="menu-content">
                 <strong>
                     <hr class="border-limiter">
-                    <a class="noselect" href='index.html' target="_self" active>Accueil</a>
+                    <a class="noselect" href='index.html' target="_self" active>L'Accueil</a>
                     <hr class="border-limiter">
-                    <a class="menu-link" href='Présentation.html' target="_self">Présentation</a>
+                    <a class="menu-link" href='presentation.html' target="_self">La Présentation</a>
                     <hr class="border-limiter">
-                    <a class="menu-link" href='Etudes.html' target="_self">Les Etudes</a>
+                    <a class="menu-link" href='etudes.html' target="_self">Les Etudes</a>
                     <hr class="border-limiter">
-                    <a class="menu-link" href='Récapitulatif.html' target="_self">Les Sources</a>
+                    <a class="menu-link" href='recapitulatif.html' target="_self">Les Sources</a>
                     <hr class="border-limiter">
-                    <a class="menu-link" href='Video.html' target="_self">Vidéo</a>
-                    <hr class="border-limiter">
-                    <a class="menu-link" href='Contact.html' target="_self">Other link</a>
+                    <a class="menu-link" href='video.html' target="_self">La Vidéo</a>
                     <hr class="border-limiter">
                     <a class="menu-link" href='anotherlink.html' target="_self">An other link</a>
                     <hr class="border-limiter">

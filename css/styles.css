@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgba(96, 161, 218, 0.747);
+    background-color: rgb(36,113,163);
 }
 
 /* Navbar */
@@ -24,13 +24,15 @@ body {
 }
 
 #global-container {
+    padding: 0;
     font-size: x-large;
-    max-width: 90%;
-    
     position: relative;
     top: 3em;
+}
 
-    min-height: 1000px;
+#header-container {
+    max-width: 90%;
+    display: block;
 }
 
 @media (min-width : 576px) {
@@ -39,37 +41,106 @@ body {
     }
 }
 
+@Media (max-width: 1199px) {
+
+}
+
 @media (min-width : 1200px) {
-    #global-container {
+    #header-container {
         max-width: 95%; 
     }
 }
 
-
-
 /* Page Container */
 #page-container {
-    text-align: center;
-
+    text-align: left;
     padding: 1%;
 }
 #page-container h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: max-content;
     font-style: italic;
-    color: rgb(100, 149, 237);
+    font-weight: bolder;
+    padding: 0.1em 4em 0.2em 4em;
+    margin: auto;
+    margin-bottom: 1.5%;
+
+    color: black;
+    border: 3px solid black;
+    border-radius: 10% 10% 10% 10%;
+	box-shadow: 0.1em 0.1em 0.05em;
+	background-color: rgb( 133, 193, 233 );
+}
+#page-content {
+	background-color: rgb( 133, 193, 233 );
+	text-align: justify;
+
+	font-size: 1.0em;
+	padding: 1em;
+	min-height: 750px; /* taille min block blanc */
+
+	border: 1.5px solid black;
+	box-shadow: 0.2em 0.2em 0.1em;
 }
 
 /* Widgets Container */
 #widgets-container {
     text-align: center;
     padding: 1%;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 3em;
 }
+
+.widget-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    border: 2.75px solid black;
+    border-radius: 10% 10% 10% 10%;
+    margin: 0.1em;
+}
+
+.widget-corps {
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 0.25em;
+}
+
 .widget {
     width: 100%;
     display: block;
     margin-bottom: 0.50em;
     margin-top: 0.50em;
-    padding: 0.1em;
+    padding: 0.25em;
+
+    border: 1.5px solid black;
+    border-radius: 5% 5% 5% 5%;
+	box-shadow: 0.2em 0.2em 0.1em;
+    background-color: rgb( 133, 193, 233 );
+}
+
+.linkNavWidget {
+    list-style: none;
+    list-style-position: outside;
+}
+
+.linkNavWidget:hover {
+    color:orange;
+    font-weight: bold;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.linkNavWidget[active] {
+    margin-left: 0.55em;
+    font-weight: bold;;
+    color:orange;
+}
+
+.linkNavWidget::before {
+    content: "◉ ";
 }
 
 .noselect {
@@ -78,6 +149,5 @@ body {
        -khtml-user-select: none; /* Konqueror HTML */
          -moz-user-select: none; /* Old versions of Firefox */
           -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome, Edge, Opera and Firefox */
-  }
+              user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
