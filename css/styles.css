@@ -104,8 +104,7 @@ body {
 
 .widget-corps {
     font-size: 0.8em;
-    text-align: justify;
-    padding: 0.25em;
+	text-align: justify;
 }
 
 .widget {
@@ -114,27 +113,32 @@ body {
     margin-bottom: 0.50em;
     margin-top: 0.50em;
     padding: 0.25em;
-
+	
     border: 1.5px solid black;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 2% 2% 2% 2%;
 	box-shadow: 0.2em 0.2em 0.1em;
     background-color: rgb( 133, 193, 233 );
 }
 
+#navWidget {
+	padding-left: 10%;
+	text-align: left;
+	list-style: none;
+}
+
 .linkNavWidget {
-    list-style: none;
-    list-style-position: outside;
+	
 }
 
 .linkNavWidget:hover {
-    color:orange;
+    color: orange;
     font-weight: bold;
     margin-left: 0.5em;
     cursor: pointer;
 }
 
 .linkNavWidget[active] {
-    margin-left: 0.55em;
+    margin-left: 0.5em;
     font-weight: bold;;
     color:orange;
 }
