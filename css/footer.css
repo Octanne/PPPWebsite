@@ -2,7 +2,7 @@
 #footer-container {
 	display: block;
 	margin-top: 1.5%;
-	border-top: 2px solid white;
+	border-top: 3px solid rgb(10, 53, 100); /* Ne fonctionne pas */
 	background-color: rgb(20, 80, 143);
 	width: 100%;
 	color: white;
@@ -11,6 +11,8 @@
 
 #footer-container p {
 	margin:0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
 }
 
 .footer-img {
@@ -22,7 +24,8 @@
 	border-bottom: 2px solid white;
 	border-right: 2px solid white;
 	border-left: 2px solid white;
-	box-shadow: 2px 2px;
+	border-radius: 5px;
+	box-shadow: 3px 3px rgb(65, 141, 223);
 }
 
 a img {
@@ -35,5 +38,5 @@ a img {
 }
 
 .footer-link:hover {
-    color: orange;
+    color: rgb(65, 141, 223);
 }
