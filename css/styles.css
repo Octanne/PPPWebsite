@@ -100,6 +100,7 @@ body {
     padding: 0.1em 4em 0.2em 4em;
     margin: auto;
     margin-bottom: 1.5%;
+	/* max-width: max-content; */
 	text-align: center;
 	
     color: rgb(20, 80, 143);
@@ -135,12 +136,13 @@ body {
     font-style: normal;
     font-weight: bold;
     color: rgb(20, 80, 143);
-    border: 2.75px solid rgb(20, 80, 143);
+    border: 3px solid rgb(20, 80, 143);
     border-radius: 8px;
     margin: 0.1em;
 }
 
 .widget-corps {
+    padding: 0.5em;
     font-size: 0.8em;
 	text-align: justify;
 }
