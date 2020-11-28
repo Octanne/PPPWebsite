@@ -57,7 +57,8 @@ body {
 }
 #page-container h2 {
     font-family: Montserrat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: max-content;
+    /* max-width: max-content; */
+    text-align: center;
     font-style: normal;
     font-weight: bold;
     padding: 0.1em 4em 0.2em 4em;
@@ -86,11 +87,10 @@ body {
 /* Widgets Container */
 #widgets-container {
     text-align: center;
-    padding: 1%;
 
     position: -webkit-sticky;
     position: sticky;
-    top: 3em;
+    top: 3.5em;
 }
 
 .widget-title {
@@ -98,12 +98,13 @@ body {
     font-style: normal;
     font-weight: bold;
     color: rgb(20, 80, 143);
-    border: 2.75px solid rgb(20, 80, 143);
+    border: 3px solid rgb(20, 80, 143);
     border-radius: 8px;
     margin: 0.1em;
 }
 
 .widget-corps {
+    padding: 0.5em;
     font-size: 0.8em;
 	text-align: justify;
 }
@@ -115,7 +116,7 @@ body {
     margin-top: 0.50em;
     padding: 0.25em;
 	
-    border: 2px solid rgb(65, 141, 223);
+    border: 3px solid rgb(65, 141, 223);
     border-radius: 15px;
 	box-shadow: 0.2em 0.2em 0.1em rgb(10, 53, 100);
     background-color: rgb(180, 210, 242);
