@@ -32,7 +32,7 @@
     padding: 8px;
     margin: auto;
     text-decoration: none;
-    font-family: cursive;
+    font-family: Montserrat;
     font-size: 2em;
     color: #f1f1f1;
     display: block;
@@ -41,12 +41,12 @@
 }
 
 .menuOverlay a:hover, .menuOverlay a:focus {
-    color: rgb(100, 149, 237);
+    color: rgb(65, 141, 223);
     text-decoration: none;
 }
 
 .menuOverlay a[active], .menuOverlay a[active] {
-    color: rgb(0, 123, 255);
+    color: rgb(20, 80, 143);
 }
 
 .menuOverlay .closebtn {
