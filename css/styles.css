@@ -78,8 +78,10 @@ body {
     }
 }
 
-@Media (max-width: 473px) {
-	
+@Media (max-width: 472px) {
+	#navbar {
+		font-size: 120%;
+	}
 }
 
 @media (min-width : 1200px) {
@@ -97,7 +99,7 @@ body {
     font-family: Montserrat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     font-weight: bold;
-    padding: 0.1em 4em 0.2em 4em;
+    padding: 0.2em;
     margin: auto;
     margin-bottom: 1.5%;
 	/* max-width: max-content; */
