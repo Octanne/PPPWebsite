@@ -1,3 +1,41 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SourceSansPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/SourceSansPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/SourceSansPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/SourceSansPro-BoldIt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Bold.otf") format("opentype");
+}
+
 body {
     background-color: rgb(65, 141, 223);
     font-family: "Source Sans Pro";
@@ -40,8 +78,8 @@ body {
     }
 }
 
-@Media (max-width: 1199px) {
-
+@Media (max-width: 473px) {
+	
 }
 
 @media (min-width : 1200px) {
@@ -57,13 +95,13 @@ body {
 }
 #page-container h2 {
     font-family: Montserrat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: max-content;
     font-style: normal;
     font-weight: bold;
     padding: 0.1em 4em 0.2em 4em;
     margin: auto;
     margin-bottom: 1.5%;
-
+	text-align: center;
+	
     color: rgb(20, 80, 143);
     border: 3px solid rgb(65, 141, 223);
     border-radius: 15px;
@@ -86,11 +124,10 @@ body {
 /* Widgets Container */
 #widgets-container {
     text-align: center;
-    padding: 1%;
 
     position: -webkit-sticky;
     position: sticky;
-    top: 3em;
+    top: 3.5em;
 }
 
 .widget-title {
@@ -115,7 +152,7 @@ body {
     margin-top: 0.50em;
     padding: 0.25em;
 	
-    border: 2px solid rgb(65, 141, 223);
+    border: 3px solid rgb(65, 141, 223);
     border-radius: 15px;
 	box-shadow: 0.2em 0.2em 0.1em rgb(10, 53, 100);
     background-color: rgb(180, 210, 242);
