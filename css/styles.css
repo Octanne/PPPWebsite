@@ -7,7 +7,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(14, 126, 245);
 
-    border: 3px solid black;
+    border-bottom: 3px solid black;
 
     font-size: 1.5em;
 }
