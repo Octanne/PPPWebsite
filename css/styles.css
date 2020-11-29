@@ -47,6 +47,7 @@ body {
     background-color: rgb(20, 80, 143);
     color: white;
     font-size: 1.75em;
+	box-shadow: 0 0.1em 0.2em 0.02em rgb(20, 80, 143);
 }
 #navbar-right {
     text-align: center;
