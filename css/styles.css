@@ -73,15 +73,15 @@ body {
     display: block;
 }
 
-@media (min-width : 576px) {
+@media (min-width : 580px) {
     #navbar-left::after {
         content: "Menu";
     }
 }
 
-@Media (max-width: 472px) {
+@Media (max-width: 500px) {
 	#navbar {
-		font-size: 120%;
+		font-size: 130%;
 	}
 }
 
