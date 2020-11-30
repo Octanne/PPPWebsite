@@ -16,6 +16,15 @@
 	padding-bottom: 0.2em;
 }
 
+@Media (max-width: 472px) {
+	a img {
+		max-width: 50%;
+	}
+	.footer-img {
+		max-width: 98%;
+	}
+}
+
 .footer-img {
 	width: max-content;
 	margin: auto;
