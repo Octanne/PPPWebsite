@@ -173,23 +173,23 @@ body {
 	list-style: none;
 }
 
-.linkNavWidget {
+#navWidget li {
 	
 }
 
-.linkNavWidget:hover {
+#navWidget li:hover {
     color: rgb(65, 141, 223);
     font-weight: bold;
     margin-left: 0.2em;
     cursor: pointer;
 }
 
-.linkNavWidget[active] {
+#navWidget li[active] {
     font-weight: bold;;
     color:rgb(20, 80, 143);
 }
 
-.linkNavWidget::before {
+#navWidget li::before {
     content: "◉ ";
 }
 
