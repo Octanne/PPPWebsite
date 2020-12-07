@@ -36,6 +36,11 @@
   src: url("../fonts/Montserrat-Bold.otf") format("opentype");
 }
 
+section > h1 {
+    text-align: center;
+    margin:auto;
+}
+
 section > p {
 	text-indent: 1.5em;
 }
