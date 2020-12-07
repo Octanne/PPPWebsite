@@ -36,6 +36,14 @@
   src: url("../fonts/Montserrat-Bold.otf") format("opentype");
 }
 
+section > p {
+	text-indent: 1.5em;
+}
+
+video {
+	width: 100%;
+}
+
 body {
     background-color: rgb(65, 141, 223);
     font-family: "Source Sans Pro";
@@ -118,7 +126,7 @@ body {
 
 	font-size: 1.0em;
 	padding: 1em;
-    min-height: 750px; /* taille min block blanc */
+    min-height: 500px; /* taille min block blanc */
     
 	border: 2px solid rgb(65, 141, 223);
     box-shadow: 0.2em 0.2em 0.1em rgb(10, 53, 100);
